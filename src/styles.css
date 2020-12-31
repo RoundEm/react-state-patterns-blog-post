@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App > section {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.25em;
+}
+
+input {
+  width: 200px;
+}
+
+input, button {
+  padding: 1px 3px;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+#primitives {
+  border: 2px solid blue;
+}
+
+#primitives #counter-buttons button {
+  margin: 0 3px;
+  padding: 3px 6px;
+}
+#primitives div {
+  margin-bottom: 20px;
+}
+
+#arrOfPrimitives {
+  border: 2px solid red;
+}
+#arrOfPrimitives input[type="number"] {
+  width: 110px;
+}
+#arrOfPrimitives input[type="text"] {
+  margin: 15px;
+}
+#arrOfPrimitives button {
+  margin: 5px 5px;
+}
+
+#objects {
+  border: 2px solid rgb(47, 255, 203);
+}
+
+#arrOfObjects {
+  border: 2px solid rgb(236, 66, 245);
+}
